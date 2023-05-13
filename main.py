@@ -134,4 +134,18 @@ first,second,*third = prices
 
 # print(letters.index("a"))
 
+#sorting reverse order
+# letters.sort(reverse=False)
+# letters.sort(reverse=True)
+# print(letters)
 
+#tuples
+people = [
+    ("John", 30 , "male"),
+    ("Mary", 23, "female"),
+    ("Dan", 25, "male"),
+    ("Zee", 33, "female")
+]
+people.sort()
+print(people)
+people.sort(key = lambda x : x[2])
