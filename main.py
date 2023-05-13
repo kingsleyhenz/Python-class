@@ -40,3 +40,30 @@
 # print(f"the number of even is :{count}")
 
 
+# function
+
+# def message(name):
+#     # print(f"Hello {name}")
+#     return f"Hello {name}"
+
+# result = message("Beans")
+# print(result)
+
+
+# xargs
+# def sum_of(*numbers):
+#     sum = 0
+#     for num in numbers:
+#         sum += num
+# print(sum)
+
+# sum_of(1,2,3,4,5,6)
+
+
+# xxargs
+# def profile(**details):
+#     print(details)
+    
+# profile(id="1", firstname="John", lastname="Doe",gender="Female",age=19)
+
+
