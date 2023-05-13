@@ -67,3 +67,11 @@
 # profile(id="1", firstname="John", lastname="Doe",gender="Female",age=19)
 
 
+# default
+
+# def user_signup(fname, lname, status="Inactive"):
+#     return fname + " " + lname + " " + status
+# fname = input(" => Enter your firstname => ")
+# lname = input(" => Enter your lastname => ")
+# print(user_signup(fname,lname,"active"))
+
