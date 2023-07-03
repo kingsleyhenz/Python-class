@@ -23,13 +23,18 @@ family_members = siblings + ('Ayo', 'Kate')
 # 1. Unpack siblings and parents from family_members
 siblings = family_members[:-2]
 parents = family_members[-2:]
+
 # 2. Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
 fruits = ('apple', 'banana', 'orange')
 vegetables = ('carrot', 'spinach', 'tomato')
 animal_products = ('meat', 'milk', 'eggs')
 food_stuff_tp = fruits + vegetables + animal_products
 # print(food_stuff_tp)
+
 # 3. Change the about food_stuff_tp tuple to a food_stuff_lt list
+food_stuff_lt = list(food_stuff_tp)
+print(food_stuff_lt)
+
 # 4. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
 # 5. Slice out the first three items and the last three items from food_staff_lt list
 # 6. Delete the food_staff_tp tuple completely
