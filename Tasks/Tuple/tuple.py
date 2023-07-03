@@ -33,10 +33,18 @@ food_stuff_tp = fruits + vegetables + animal_products
 
 # 3. Change the about food_stuff_tp tuple to a food_stuff_lt list
 food_stuff_lt = list(food_stuff_tp)
-print(food_stuff_lt)
+# print(food_stuff_lt)
 
 # 4. Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
+middle_items_tp = food_stuff_tp[len(food_stuff_tp)//2]
+middle_items_lt = food_stuff_lt[len(food_stuff_lt)//2]
+# print(middle_items_lt)
+# print(middle_items_tp)
+
 # 5. Slice out the first three items and the last three items from food_staff_lt list
+sliced_items_lt = food_stuff_lt[:3] + food_stuff_lt[-3:]
+# print(sliced_items_lt)
+
 # 6. Delete the food_staff_tp tuple completely
 # 7. Check if an item exists in tuple:
 # 8. Check if 'Estonia' is a nordic country
