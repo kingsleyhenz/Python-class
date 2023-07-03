@@ -47,4 +47,7 @@ student_tuple = list(student.items())
 
 # 10. Delete one of the items in the dictionary
 del student['address']
-print(student)
+# print(student)
+
+# 11. Delete one of the dictionaries
+del student
