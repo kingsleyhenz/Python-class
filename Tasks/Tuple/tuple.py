@@ -11,5 +11,7 @@ brothers = ('Jedi', 'Henz', 'Swagga')
 siblings = brothers + sisters
 # print(siblings)
 # 4. How many siblings do you have?
+num_siblings = len(siblings)
+# print(num_siblings)
 # 5. Modify the siblings tuple and add the name of your father and mother and assign it to family_members
 
