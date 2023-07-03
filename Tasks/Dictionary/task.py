@@ -21,5 +21,9 @@ length = len(student)
 # print(length)
 # 5. Get the value of skills and check the data type, it should be a list
 skill_count = student['skills']
-print(skill_count)
-print(type(skill_count))
+# print(skill_count)
+# print(type(skill_count))
+# 6. Modify the skills values by adding one or two skills
+student['skills'].append('MongoDb')
+student['skills'].append('ReactJs')
+# print(student['skills'])
