@@ -46,6 +46,7 @@ sliced_items_lt = food_stuff_lt[:3] + food_stuff_lt[-3:]
 # print(sliced_items_lt)
 
 # 6. Delete the food_staff_tp tuple completely
+del food_stuff_tp
 # 7. Check if an item exists in tuple:
 # 8. Check if 'Estonia' is a nordic country
 # 9. Check if 'Iceland' is a nordic country
