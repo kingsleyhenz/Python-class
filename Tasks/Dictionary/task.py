@@ -16,5 +16,6 @@ student = {
     'city': '',
     'address': ''
 }
-
-
+# 4.Get the length of the student dictionary 
+length = len(student)
+print(length)
