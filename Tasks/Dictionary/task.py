@@ -35,4 +35,12 @@ student['skills'].append('ReactJs')
 
 # 7. Get the dictionary keys as a list
 keys_list = list(student.keys())
-print(keys_list)
+# print(keys_list)
+
+# 8. Get the dictionary values as a list
+values_list = list(student.values())
+# print(values_list)
+
+# 9. Change the dictionary to a list of tuples using items() method
+student_tuple = list(student.items())
+# print(student_tuple)
