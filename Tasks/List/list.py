@@ -27,7 +27,7 @@ mixed_data_types = ['Henz', 10, 10.75, 'Married', '123 Woji Street']
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 
 # 7. Print the list using print()
-print(it_companies)
+# print(it_companies)
 
 # 8. Print the number of companies in the list
 num_companies = len(it_companies)
@@ -83,7 +83,7 @@ last_3_companies = it_companies[-3:]
 
 # 20. Slice out the middle IT company or companies from the list
 middle_companies = it_companies[len(it_companies)//2:(len(it_companies)//2)+1]
-print(middle_companies)
+# print(middle_companies)
 
 # 21. Remove the first IT company from the list
 del it_companies[0]
@@ -114,3 +114,66 @@ full_stack = joined_list.copy()
 full_stack.insert(joined_list.index('Redux')+1, 'Python')
 full_stack.insert(joined_list.index('Redux')+2, 'SQL')
 # print("Full stack:", full_stack)
+
+
+# LEVEL 2
+
+## The following is a list of 10 students ages:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+# Sort the list and find the min and max age
+ages.sort()
+min_age = ages[0]
+max_age = ages[-1]
+# print(max_age)
+# print(min_age)
+
+# Add the min age and the max age again to the list
+ages.append(min_age)
+ages.append(max_age)
+# print(ages)
+
+# Find the median age (one middle item or two middle items divided by two)
+middle_index = len(ages) // 2
+if len(ages) % 2 == 0:
+    med_age = (ages[middle_index - 1] + ages[middle_index]) / 2
+else:
+    med_age = ages[middle_index]
+# print(median_age)
+    
+# Find the average age (sum of all items divided by their number )
+avg_age = sum(ages) / len(ages)
+print(avg_age)
+
+# Find the range of the ages (max minus min)
+age_range = max_age - min_age
+# print(age_range)
+
+# Compare the value of (min - average) and (max - average), use abs() method
+min_avg_diff = abs(min_age - avg_age)
+max_avg_diff = abs(max_age - avg_age)
+# print(min_avg_diff)
+# print(max_avg_diff)
+
+# Find the middle country(ies) in the countries list
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+middle = []
+if len(countries) % 2 == 0:
+    middle.append(countries[len(countries)//2 - 1])
+    middle.append(countries[len(countries)//2])
+else:
+    middle.append(countries[len(countries)//2])
+print(middle)   
+
+# Divide the countries list into two equal lists if it is even if not one more country for the first half.
+if len(countries) % 2 == 0:
+    first_half = countries[:len(countries)//2]
+    sec_half = countries[len(countries)//2:]
+else:
+    first_half = countries[:len(countries)//2 + 1]
+    sec_half = countries[len(countries)//2 + 1:]
+
+#. Unpack the first three countries and the rest as scandic countries.
+country1, country2, country3, *scandic_countries = countries
+print("First three countries:", country1, country2, country3)
+print("Scandic countries:", scandic_countries)
