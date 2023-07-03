@@ -1,4 +1,4 @@
-# TUPLE
+# TUPLE #LEVEL 1
 # 1. Create an empty
 my_tuple = ()
 
@@ -14,4 +14,6 @@ siblings = brothers + sisters
 num_siblings = len(siblings)
 # print(num_siblings)
 # 5. Modify the siblings tuple and add the name of your father and mother and assign it to family_members
+family_members = siblings + ('Ayo', 'Kate')
+# print(family_members)
 
