@@ -1,7 +1,6 @@
 # DATE AND TIME
 from datetime import datetime
 
-# Get the current day, month, year, hour, minute, and timestamp
 now = datetime.now()
 current_day = now.day
 current_month = now.month
